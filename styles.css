@@ -1,12 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .obj{
     width: 100px;
     height: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .up-to-height{
-    object-fit: contain;
-}
-
-.up-to-width{
-    object-fit:scale-down;
+    max-width: 100%;
+    max-height: 100%;
 }
