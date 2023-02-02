@@ -1,0 +1,12 @@
+.obj{
+    width: 100px;
+    height: 100px;
+}
+
+.up-to-height{
+    object-fit: contain;
+}
+
+.up-to-width{
+    object-fit:scale-down;
+}
