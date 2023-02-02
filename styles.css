@@ -13,6 +13,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: no-repeat center /contain url('Icon-druck-100x300px — копия.png');
-    
+    background: no-repeat center /contain url('Icon-druck-100x300px.png');
+}
+
+.knopka::before{
+    content: url('knopka-before.svg');
 }
