@@ -28,9 +28,17 @@
     <h2>img after</h2>
     <div class="knopka2">KHOПKA</div>
     <hr>
+    <h2>Адаптивная картинка</h2>
     <div class="obj3">
-        <img class="adaptation-image" src="Icon-druck-100x300px.png" alt="">
+        <img src="Icon-druck-100x300px.png" alt="">
     </div>
-    
+    <hr>
+    <h2>Адаптивный бэкграунд</h2>
+    <div class="obj4" style="background-image: url('Icon-druck-100x300px.png');"></div>
+    <hr>
+    <h2>Смена картинок</h2>
+    <img srcset="762w.jpg 762w,1000w.jpg 1000w, Icon-druck-100x300px.png 300w" 
+         sizes="(max-width: 780px) 760px, (max-width: 480px) 300px"
+         src='Icon-druck-100x300px.png'>
 </body>
 </html>
